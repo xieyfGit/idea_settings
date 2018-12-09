@@ -1,12 +1,6 @@
 <application>
   <component name="Settings">
-    <option name="googleTranslateSettings">
-      <google-translate>
-        <option name="useTranslateGoogleCom" value="true" />
-      </google-translate>
-    </option>
     <option name="ignoreRegExp" value="" />
-    <option name="overrideFont" value="true" />
     <option name="phoneticFontFamily" value="Courier New" />
     <option name="primaryFontFamily" value="Courier New" />
   </component>
