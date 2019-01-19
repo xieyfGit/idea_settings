@@ -1,8 +1,0 @@
-<application>
-  <component name="UISettings">
-    <option name="CONSOLE_COMMAND_HISTORY_LIMIT" value="1000" />
-    <option name="SHOW_MEMORY_INDICATOR" value="true" />
-    <option name="smoothScrolling" value="true" />
-    <option name="SORT_LOOKUP_ELEMENTS_LEXICOGRAPHICALLY" value="true" />
-  </component>
-</application>
