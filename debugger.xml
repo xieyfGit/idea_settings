@@ -1,8 +1,6 @@
 <application>
   <component name="DebuggerSettings">
-    <option name="RUN_HOTSWAP_AFTER_COMPILE" value="RunHotswapAlways" />
-    <option name="KILL_PROCESS_IMMEDIATELY" value="true" />
-    <option name="RESUME_ONLY_CURRENT_THREAD" value="true" />
+    <option name="HOTSWAP_HANG_WARNING_ENABLED" value="true" />
     <filter>
       <option name="PATTERN" value="com.sun.*" />
       <option name="ENABLED" value="true" />
@@ -79,12 +77,20 @@
       <option name="INCLUDE" value="true" />
     </filter>
   </component>
+  <component name="NodeRendererSettings">
+    <Renderer ID="ClassRenderer">
+      <option name="SHOW_STRINGS_TYPE" value="true" />
+    </Renderer>
+  </component>
   <component name="XDebuggerSettings">
-    <data-views>
-      <sort-values>true</sort-values>
-    </data-views>
+    <data-views />
     <general />
     <debuggers>
+      <debugger id="javascript">
+        <configuration>
+          <custom-object-presentation />
+        </configuration>
+      </debugger>
       <debugger id="kotlin_debugger">
         <configuration>
           <option name="DEBUG_IS_FILTER_FOR_STDLIB_ALREADY_ADDED" value="true" />
